@@ -83,13 +83,12 @@ treenode {
     opacity: 1;
     max-height: 2000px;
     overflow: hidden;
+    font-family: 'Ubuntu Mono', monospace !important;
+    font-size:17px;
 }
 
     treenode.ng-hide-add, treenode.ng-hide-remove {
-        -webkit-transition: all linear .5s;
-        -moz-transition: all linear .5s;
-        -o-transition: all linear .5s;
-        transition: all linear .5s;
+       
         display: block !important;
     }
 
